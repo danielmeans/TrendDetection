@@ -1,0 +1,9 @@
+10/4/18
+Goal of session: setup datasets to run Granger regression to find effect of Immigration Articles about the US, 
+from US Sources, on Twitter activity of Ant-Immigration Hate Speech Groups.
+To Do's:
+-Refesh memory of work from Spring 2018
+X-Acquire dataset of Immigration Articles over a 3 month period, from US sources
+X-Acquire dataset of tweets from hate groups over the same 3 month period
+O-Attempt Granger regression
+
