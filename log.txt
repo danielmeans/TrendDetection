@@ -7,3 +7,17 @@ X-Acquire dataset of Immigration Articles over a 3 month period, from US sources
 X-Acquire dataset of tweets from hate groups over the same 3 month period
 O-Attempt Granger regression
 
+10/10/18
+Planning for the quarter:
+The goal is to take the tweets of the top hate groups on twitter and perform topic modeling on
+a) the tweet text b) the linked article headlines c) the linked article text
+Then the goal is to convert these into a time series by topic and compare this with the time
+series of hate group tweets by activity. 
+
+The steps are: 
+1) extract links from tweets (regex)
+2) get article headlines, text from tweets (Newspaper, https://github.com/codelucas/newspaper)
+3) Perform topic modeling on tweet text, article text, and headline (Mallet)
+4) Convert to time series
+5) Perform time series comparisons (Granger, Other methods TBD)
+
